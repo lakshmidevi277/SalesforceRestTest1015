@@ -64,6 +64,6 @@
       <value name="timeoutType">auto</value>
       <value name="sessionExpiry">60</value>
     </record>
-    <value name="connectionEnabled">true</value>
+    <value name="connectionEnabled">false</value>
   </record>
 </Values>
