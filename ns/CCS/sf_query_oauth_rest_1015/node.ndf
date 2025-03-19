@@ -43,7 +43,7 @@
                   <value name="node_type">unknown</value>
                   <value name="node_subtype">unknown</value>
                   <record name="node_hints" javaclass="com.wm.util.Values">
-                    <null name="field_default_value"/>
+                    <value name="field_default_value">SELECT Id,IsDeleted,MasterRecordId,Name,Type,ParentId,BillingStreet,BillingCity,BillingState,BillingPostalCode,BillingCountry,BillingLatitude,BillingLongitude,BillingGeocodeAccuracy,ShippingStreet,ShippingCity,ShippingState,ShippingPostalCode,ShippingCountry,ShippingLatitude,ShippingLongitude,ShippingGeocodeAccuracy,Phone,Fax,AccountNumber,Website,PhotoUrl,Sic,Industry,AnnualRevenue,NumberOfEmployees,Ownership,TickerSymbol,Description,Rating,Site,OwnerId,CreatedDate,CreatedById,LastModifiedDate,LastModifiedById,SystemModstamp,LastActivityDate,LastViewedDate,LastReferencedDate,Jigsaw,JigsawCompanyId,CleanStatus,AccountSource,DunsNumber,Tradestyle,NaicsCode,NaicsDesc,YearStarted,SicDesc,DandbCompanyId FROM Account</value>
                     <Boolean name="field_fixed">false</Boolean>
                   </record>
                   <value name="is_public">false</value>
@@ -2551,7 +2551,7 @@
     <value name="failureThreshold">5</value>
     <value name="failurePeriod">60</value>
     <value name="openAction">1</value>
-    <null name="serviceToInvoke"/>
+    <value name="serviceToInvoke"></value>
     <value name="resetPeriod">300</value>
     <value name="cancelThreadOnTimeout">false</value>
   </record>
@@ -2613,7 +2613,7 @@
           <value name="name">q</value>
           <value name="dataType">String</value>
           <value name="type">QUERYSTRING_PARAM</value>
-          <null name="defaultValue"/>
+          <value name="defaultValue">SELECT Id,IsDeleted,MasterRecordId,Name,Type,ParentId,BillingStreet,BillingCity,BillingState,BillingPostalCode,BillingCountry,BillingLatitude,BillingLongitude,BillingGeocodeAccuracy,ShippingStreet,ShippingCity,ShippingState,ShippingPostalCode,ShippingCountry,ShippingLatitude,ShippingLongitude,ShippingGeocodeAccuracy,Phone,Fax,AccountNumber,Website,PhotoUrl,Sic,Industry,AnnualRevenue,NumberOfEmployees,Ownership,TickerSymbol,Description,Rating,Site,OwnerId,CreatedDate,CreatedById,LastModifiedDate,LastModifiedById,SystemModstamp,LastActivityDate,LastViewedDate,LastReferencedDate,Jigsaw,JigsawCompanyId,CleanStatus,AccountSource,DunsNumber,Tradestyle,NaicsCode,NaicsDesc,YearStarted,SicDesc,DandbCompanyId FROM Account</value>
           <value name="description">Specifies object for which fields need to be retrieved</value>
           <value name="isRequired">true</value>
           <value name="isActive">true</value>
