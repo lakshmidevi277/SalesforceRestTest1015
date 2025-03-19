@@ -4,6 +4,7 @@
         <servicesKeys>
             <keyDetails collectionKey="CCS:sf_query_jwt_rest_1015" connectorServiceName="CCS:sf_query_jwt_rest_1015"/>
             <keyDetails collectionKey="CCS:sf_query_oauth_rest_1015" connectorServiceName="CCS:sf_query_oauth_rest_1015"/>
+            <keyDetails collectionKey="CCS:sf_rest_oauth_queryaccts" connectorServiceName="CCS:sf_rest_oauth_queryaccts"/>
         </servicesKeys>
     </cloudstreamsCollectionKeys>
 </services>
